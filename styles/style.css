@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+:root {
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 38%, 61%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../images/bg-pattern-top-desktop.svg) ;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+/* TOP */
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.top h1 {
+    font-size: 3.5rem;
+    color: var(--very-dark-magenta)
+}
+
+.top .paragraph {
+    max-width: 300px;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: var(--dark-grayish-magenta);
+    line-height: 1.2;
+}
+
+.rating {
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-grayish-magenta);
+    color: var(--very-dark-magenta);
+    font-size: 2.8rem;
+    padding: 1rem 3rem 1rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+}
+.rating img {
+    width: 10px;
+}
+
+.rating .stars {
+    margin-right: 20px;
+}
+
+.top .ratings .rating-1 {
+    margin-left: 0px;
+}
+
+.top .ratings .rating-2 {
+    margin-left: 25px;
+}
+
+.top .ratings .rating-3 {
+    margin-left: 50px;
+}
+
+/* REVIEW SECTION */
+.review-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.review {
+    max-width: 250px;
+    height: 150px;
+    background-color: var(--very-dark-magenta);
+    color: var(--light-grayish-magenta);
+    padding: 2.5rem 2rem 2rem 2rem;
+    border-radius: 5px;
+}
+.review .name-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.review .name-content img {
+    width: 25px;
+    border-radius: 50px;
+    margin-right: 1.5rem;
+}
+
+.review .name-content .name-section h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.review .name-content .name-section .description {
+    font-size: 0.8rem;
+    color: var(--soft-pink);
+    font-weight: 600;
+}
+
+.review .text-content {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.review-2 {
+    margin-top: 1rem;
+}
+
+.review-3 {
+    margin-top: 2rem;
+}

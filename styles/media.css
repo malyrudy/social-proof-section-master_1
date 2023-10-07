@@ -1,0 +1,41 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(../images/bg-pattern-top-mobile.svg);    
+    }
+
+    .wrapper {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .top {
+        justify-content: center;
+    }
+
+    .top .paragraph {
+        margin-bottom: 3rem;
+    }
+
+    .top .ratings .rating {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .top .ratings .stars {
+        margin-bottom: .8rem;
+    }
+
+    .top .ratings .rating-2,
+    .top .ratings .rating-3 {
+        margin-left: 0px;
+    }
+
+    .review {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+  }
